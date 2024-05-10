@@ -1,0 +1,80 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Imagenes\2023-08-20_16.00.05.png" />
+    <Content Remove="wwwroot\Imagenes\2023-08-20_16.00.26.png" />
+    <Content Remove="wwwroot\Imagenes\age-of-empires-definitive-edition-definitive-edition-pc-juego-steam-cover.jpg" />
+    <Content Remove="wwwroot\Imagenes\age-of-empires-ii-definitive-edition-definitive-edition.jpg" />
+    <Content Remove="wwwroot\Imagenes\age-of-empires-iii-definitive-edition.jpg" />
+    <Content Remove="wwwroot\Imagenes\age-of-empires-iv-anniversary-edition-anniversary-edition.jpg" />
+    <Content Remove="wwwroot\Imagenes\cities-skylines-platinum-edition.jpg" />
+    <Content Remove="wwwroot\Imagenes\company-of-heroes-3.jpg" />
+    <Content Remove="wwwroot\Imagenes\conan-exiles.jpg" />
+    <Content Remove="wwwroot\Imagenes\crusader-kings-iii.jpg" />
+    <Content Remove="wwwroot\Imagenes\cult-of-the-lamb.jpg" />
+    <Content Remove="wwwroot\Imagenes\dune-spice-wars.jpg" />
+    <Content Remove="wwwroot\Imagenes\facb2071-0732-461c-b995-c37a3e19ba52-profile_image-70x70.png" />
+    <Content Remove="wwwroot\Imagenes\IMG_20230811_222046.jpg" />
+    <Content Remove="wwwroot\Imagenes\inside-the-crack.jpg" />
+    <Content Remove="wwwroot\Imagenes\jagged-alliance-3.jpg" />
+    <Content Remove="wwwroot\Imagenes\kenshi.jpg" />
+    <Content Remove="wwwroot\Imagenes\La-serie-sin-titulo.gif" />
+    <Content Remove="wwwroot\Imagenes\last-train-home.jpg" />
+    <Content Remove="wwwroot\Imagenes\millenniajpg.jpg" />
+    <Content Remove="wwwroot\Imagenes\mount-blade-ii-bannerlord.jpg" />
+    <Content Remove="wwwroot\Imagenes\photo-1418985991508-e47386d96a71.jpeg" />
+    <Content Remove="wwwroot\Imagenes\photo-1515133997814-e6460be24073.jpg" />
+    <Content Remove="wwwroot\Imagenes\Planos cutres.png" />
+    <Content Remove="wwwroot\Imagenes\pngtree-ice-cave-with-snow-and-stalactites-picture-image_1818978.PNG" />
+    <Content Remove="wwwroot\Imagenes\star-wars-empire-at-war-gold-pack-gold-edition.jpg" />
+    <Content Remove="wwwroot\Imagenes\the-tribe-must-survive.jpg" />
+    <Content Remove="wwwroot\Imagenes\total-war-warhammer-iii.jpg" />
+    <Content Remove="wwwroot\Imagenes\turmoil.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\imagenes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Imagenes\age-of-empires-definitive-edition-definitive-edition-pc-juego-steam-cover.jpg" />
+    <None Include="wwwroot\Imagenes\age-of-empires-ii-definitive-edition-definitive-edition.jpg" />
+    <None Include="wwwroot\Imagenes\age-of-empires-iii-definitive-edition.jpg" />
+    <None Include="wwwroot\Imagenes\age-of-empires-iv-anniversary-edition-anniversary-edition.jpg" />
+    <None Include="wwwroot\Imagenes\cities-skylines-platinum-edition.jpg" />
+    <None Include="wwwroot\Imagenes\company-of-heroes-3.jpg" />
+    <None Include="wwwroot\Imagenes\conan-exiles.jpg" />
+    <None Include="wwwroot\Imagenes\crusader-kings-iii.jpg" />
+    <None Include="wwwroot\Imagenes\cult-of-the-lamb.jpg" />
+    <None Include="wwwroot\Imagenes\dune-spice-wars.jpg" />
+    <None Include="wwwroot\Imagenes\inside-the-crack.jpg" />
+    <None Include="wwwroot\Imagenes\jagged-alliance-3.jpg" />
+    <None Include="wwwroot\Imagenes\kenshi.jpg" />
+    <None Include="wwwroot\Imagenes\last-train-home.jpg" />
+    <None Include="wwwroot\Imagenes\millenniajpg.jpg" />
+    <None Include="wwwroot\Imagenes\mount-blade-ii-bannerlord.jpg" />
+    <None Include="wwwroot\Imagenes\star-wars-empire-at-war-gold-pack-gold-edition.jpg" />
+    <None Include="wwwroot\Imagenes\the-tribe-must-survive.jpg" />
+    <None Include="wwwroot\Imagenes\total-war-warhammer-iii.jpg" />
+    <None Include="wwwroot\Imagenes\turmoil.jpg" />
+  </ItemGroup>
+
+</Project>
