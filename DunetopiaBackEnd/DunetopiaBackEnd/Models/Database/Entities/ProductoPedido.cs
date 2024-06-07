@@ -3,7 +3,7 @@
     public class ProductoPedido
     {
        public int Id { get; set; }
-       public int Qunatity { get; set; }
+       public int Cantidad { get; set; }
        public int ProductoId { get; set; }
        public string PedidosId {  get; set; }
 

@@ -15,6 +15,7 @@ public class MyDBContext : DbContext
     public DbSet<ProductoCarro> ProductoCarros { get; set; }
     public DbSet<ProductoPedido> ProductoPedidos { get; set; }
     public DbSet<CarroDeCompra> CarroDeCompras { get; set;}
+    public DbSet<Compra> Compras { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {

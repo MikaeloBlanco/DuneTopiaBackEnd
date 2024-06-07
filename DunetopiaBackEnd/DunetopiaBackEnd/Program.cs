@@ -1,10 +1,18 @@
+using Microsoft.IdentityModel.Tokens;
+using DunetopiaBackEnd.Models.Database;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using DunetopiaBackEnd.Models.Database;
+using System.Security.Cryptography;
 
 namespace DunetopiaBackEnd
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
+            Directory.SetCurrentDirectory(AppContext.BaseDirectory);
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -14,19 +22,49 @@ namespace DunetopiaBackEnd
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddScoped<MyDBContext>();
+            builder.Services.AddTransient<DbSeeder>();
+
+            builder.Services.AddAuthentication().AddJwtBearer(options =>
+            {
+                string Key = Environment.GetEnvironmentVariable("JWT_KEY");
+
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = false,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Key))
+                };
+
+            });
+
             var app = builder.Build();
+
+            using (IServiceScope scope = app.Services.CreateScope())
+            {
+                MyDBContext dbContext = scope.ServiceProvider.GetService<MyDBContext>();
+                DbSeeder dbSeeder = scope.ServiceProvider.GetService<DbSeeder>();
+                await dbSeeder.SeedAsync();
+            }
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+
+                /*app.UseCors(config => config
+                *.AllowAnyOrigin()
+                *.AllowAnyHeader()
+                *.SetIsOriginAllowed(origin => true)
+                *.AllowCredentials());
+                **/
             }
 
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseStaticFiles();
 
             app.MapControllers();
 

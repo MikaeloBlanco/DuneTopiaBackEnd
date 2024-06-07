@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "gWxKDdMnhZoU3eG2jImQrPaxRYjGUHaz9shgDFzK/pU=",
+  "Source": "DunetopiaBackEnd",
+  "BasePath": "_content/DunetopiaBackEnd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DunetopiaBackEnd\\wwwroot",
+      "Source": "DunetopiaBackEnd",
+      "ContentRoot": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\wwwroot\\",
+      "BasePath": "_content/DunetopiaBackEnd",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
