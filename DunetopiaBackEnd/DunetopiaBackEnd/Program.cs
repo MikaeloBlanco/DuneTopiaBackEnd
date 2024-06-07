@@ -1,9 +1,6 @@
 using Microsoft.IdentityModel.Tokens;
 using DunetopiaBackEnd.Models.Database;
 using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using DunetopiaBackEnd.Models.Database;
-using System.Security.Cryptography;
 
 namespace DunetopiaBackEnd
 {
@@ -31,7 +28,7 @@ namespace DunetopiaBackEnd
 
                 options.TokenValidationParameters = new TokenValidationParameters()
                 {
-                    ValidateIssuer = true,
+                    ValidateIssuer = false,
                     ValidateAudience = false,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Key))
                 };
@@ -53,17 +50,19 @@ namespace DunetopiaBackEnd
                 app.UseSwagger();
                 app.UseSwaggerUI();
 
-                /*app.UseCors(config => config
-                *.AllowAnyOrigin()
-                *.AllowAnyHeader()
-                *.SetIsOriginAllowed(origin => true)
-                *.AllowCredentials());
-                **/
+               app.UseCors(config => config
+                .AllowAnyOrigin()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true)
+                .AllowCredentials());
+                
             }
 
             app.UseHttpsRedirection();
+
             app.UseAuthentication();
             app.UseAuthorization();
+
             app.UseStaticFiles();
 
             app.MapControllers();

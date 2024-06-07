@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gWxKDdMnhZoU3eG2jImQrPaxRYjGUHaz9shgDFzK/pU=",
+  "Hash": "xZhrWjhyEE5jwJm/CUfTv19n/8cXfbGsDCRuSblq2cI=",
   "Source": "DunetopiaBackEnd",
   "BasePath": "_content/DunetopiaBackEnd",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "DunetopiaBackEnd\\wwwroot",
       "Source": "DunetopiaBackEnd",
-      "ContentRoot": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\wwwroot\\",
       "BasePath": "_content/DunetopiaBackEnd",
       "Pattern": "**"
     }

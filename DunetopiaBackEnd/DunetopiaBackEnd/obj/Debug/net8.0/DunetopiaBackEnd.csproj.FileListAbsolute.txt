@@ -121,7 +121,6 @@ D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\staticweb
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DunetopiaBackEnd.props
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\staticwebassets.pack.json
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\scopedcss\bundle\DunetopiaBackEnd.styles.css
-D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\Dunetopi.378E7076.Up2Date
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\DunetopiaBackEnd.dll
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\refint\DunetopiaBackEnd.dll
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\DunetopiaBackEnd.pdb
@@ -135,3 +134,4 @@ D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\bin\Debug\net8.0\Microsoft
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\DuneTopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DunetopiaBackEnd\DunetopiaBackEnd\DunetopiaBackEnd\obj\Debug\net8.0\DunetopiaBackEnd.csproj.CopyComplete
