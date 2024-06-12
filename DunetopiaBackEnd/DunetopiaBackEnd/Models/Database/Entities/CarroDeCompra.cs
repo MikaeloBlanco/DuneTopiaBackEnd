@@ -3,11 +3,10 @@
 public class CarroDeCompra
 {
     public int Id { get; set; }
-    public int UserId { get; set; }
-    public int CartProductId { get; set; }
+    public int UsuarioId { get; set; }
+    public int ProductoCarroId { get; set; }
 
     //Clave foranea
-    public ICollection<CarroDeCompra> CarroDeCompras { get; set; }
-    public ICollection<Producto> productos { get; set; }
+    public ICollection<ProductoCarro> productoCarros { get; set; }
 }
 

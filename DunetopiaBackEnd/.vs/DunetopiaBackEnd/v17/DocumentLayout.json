@@ -3,44 +3,40 @@
   "WorkspaceRootPath": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\confirmacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\confirmacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\productocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\productocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\productopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\productopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\carrodecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\carrodecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\compracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\compracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\productocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\productocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\productocarrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\productocarrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,16 +47,60 @@
       "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\usuarioregistrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\dunetopiabackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\dtos\\createusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\createusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\productopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\productopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\confirmacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\confirmacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\dtos\\usuariologeodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\usuariologeodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\dtos\\refrescarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\refrescarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\dtos\\createproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,48 +115,8 @@
       "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\modifyrolusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\dtos\\createusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\dtos\\createusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\carrodecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\carrodecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\models\\database\\entities\\compracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\models\\database\\entities\\compracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\controllers\\productocarrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\controllers\\productocarrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|solutionrelative:dunetopiabackend\\dunetopiabackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22CC2413-4D4F-47D8-BA50-6BF8A783D82F}|DunetopiaBackEnd\\DunetopiaBackEnd.csproj|d:\\dunetopiabackend\\dunetopiabackend\\dunetopiabackend\\wwwroot\\imagenes\\turmoil.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
@@ -130,89 +130,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:08:48.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConfirmacionController.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowDMAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:19:43.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CarritoController.cs",
               "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\CarritoController.cs",
               "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\CarritoController.cs",
               "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\CarritoController.cs",
               "RelativeToolTip": "DunetopiaBackEnd\\Controllers\\CarritoController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAdAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T18:45:00.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompraController.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\CompraController.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\CompraController.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\CompraController.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Controllers\\CompraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "CarroDeCompra.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T20:21:24.892Z",
+              "WhenOpened": "2024-04-03T16:30:22.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Program.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Program.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Program.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:54:34.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Properties\\launchSettings.json",
-              "RelativeToolTip": "DunetopiaBackEnd\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T01:02:37.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ProductoCarro.cs",
               "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoCarro.cs",
               "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoCarro.cs",
@@ -225,228 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:37:21.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductoPedido.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:47:53.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Services\\FileService.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\FileService.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Services\\FileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T20:10:24.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Services\\EmailService.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\EmailService.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Services\\EmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T23:06:09.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsuarioRegistroDto.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:51:17.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UsuarioLogeoDto.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:50:25.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RefrescarProducto.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:53:05.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductoDto.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:57:46.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CreateProducto.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:53:08.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateCarrito.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:45:45.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ModifyRolUsuario.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:46:46.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateUsuario.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:55:41.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MyDBContext.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:02:07.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DbSeeder.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwBkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T23:45:11.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:43:40.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CarroDeCompra.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\CarroDeCompra.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:30:22.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
-              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
-              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
-              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:55:54.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 4,
               "Title": "Compracion.cs",
               "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Compracion.cs",
               "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Compracion.cs",
@@ -459,33 +186,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\UsuarioController.cs",
               "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "DunetopiaBackEnd\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAAwFcAAAAaAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAArwDgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T11:37:52.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:37:21.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:08:48.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\ProductoController.cs",
               "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "DunetopiaBackEnd\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAUwEAAAABcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T19:45:54.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 8,
               "Title": "ProductoCarroController.cs",
               "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\ProductoCarroController.cs",
               "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\ProductoCarroController.cs",
@@ -498,7 +251,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Services\\EmailService.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\EmailService.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T23:06:09.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioRegistroDto.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\UsuarioRegistroDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:51:17.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductoDto.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\ProductoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:57:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Program.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Program.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T10:54:34.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "DunetopiaBackEnd.http",
               "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd.http",
               "RelativeDocumentMoniker": "DunetopiaBackEnd\\DunetopiaBackEnd.http",
@@ -506,8 +311,195 @@
               "RelativeToolTip": "DunetopiaBackEnd\\DunetopiaBackEnd.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-06-07T01:01:43.025Z",
+              "WhenOpened": "2024-06-12T12:37:43.939Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MyDBContext.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\MyDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:02:07.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Services\\FileService.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Services\\FileService.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Services\\FileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T20:10:24.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\DbSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T23:45:11.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateUsuario.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\CreateUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:55:41.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductoPedido.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\ProductoPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:47:53.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:43:40.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DunetopiaBackEnd\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T01:02:37.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CompraController.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\CompraController.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\CompraController.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\CompraController.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Controllers\\CompraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T20:21:24.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ConfirmacionController.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Controllers\\ConfirmacionController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:19:43.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsuarioLogeoDto.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\UsuarioLogeoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:50:25.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RefrescarProducto.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\RefrescarProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:53:05.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateProducto.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\CreateProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:53:08.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateCarrito.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\CreateCarrito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:45:45.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ModifyRolUsuario.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\DTos\\ModifyRolUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:46:46.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
+              "RelativeDocumentMoniker": "DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
+              "ToolTip": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
+              "RelativeToolTip": "DunetopiaBackEnd\\Models\\Database\\Entities\\Compra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:55:54.307Z"
             },
             {
               "$type": "Document",

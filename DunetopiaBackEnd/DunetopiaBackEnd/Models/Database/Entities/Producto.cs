@@ -11,8 +11,8 @@ namespace DunetopiaBackEnd.Models.Database.Entities;
         public decimal Price { get; set; }
         public int Stock {  get; set; }
         public string Image {  get; set; }
-        public string Type { get; set; }
         public int ProductoCarroId { get; set; }
+        public int ProductoPedidoId { get; set; }
 
 
     // Foreing Keys

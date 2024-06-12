@@ -16,8 +16,8 @@ namespace DunetopiaBackEnd.Controllers;
 
 public class UsuarioController : ControllerBase
 {
-    private MyDBContext _dbContextDuneTopia;
-    private PasswordHasher<string> passwordHasher = new PasswordHasher<string>();
+    private readonly MyDBContext _dbContextDuneTopia;
+    private PasswordHasher<string> passwordHasher = new();
     private readonly TokenValidationParameters _tokenParameters;
 
     public UsuarioController(MyDBContext dbContextDuneTopia, IOptionsMonitor<JwtBearerOptions> jwtOptions)
@@ -35,13 +35,13 @@ public class UsuarioController : ControllerBase
     [HttpPost("registro")]
     public async Task<IActionResult> Post([FromForm] CreateUsuario usuarioRegistroDto)
     {
-        string hashedPassword = passwordHasher.HashPassword(usuarioRegistroDto.Name, usuarioRegistroDto.Contrasena);
+        string hashedPassword = passwordHasher.HashPassword(usuarioRegistroDto.Name, usuarioRegistroDto.Password);
 
         Usuario nuevoUsuario = new Usuario()
         {
             Name = usuarioRegistroDto.Name,
             Email = usuarioRegistroDto.Email,
-            Contrasena = hashedPassword,
+            Password = hashedPassword,
             Direccion = usuarioRegistroDto.Direccion
         };
 
@@ -52,8 +52,8 @@ public class UsuarioController : ControllerBase
 
         CarroDeCompra nuevoCarro = new CarroDeCompra()
         {
-            UserId = usuarioCreado.Id,
-            CartProductId = usuarioCreado.Id
+            UsuarioId = usuarioCreado.Id,
+            ProductoCarroId = usuarioCreado.Id
         };
 
         await _dbContextDuneTopia.CarroDeCompras.AddAsync(nuevoCarro);
@@ -69,7 +69,7 @@ public class UsuarioController : ControllerBase
         {
             if (listaUsuario.Email == usuarioLogeoDto.Email)
             {
-                var result = passwordHasher.VerifyHashedPassword(listaUsuario.Name, listaUsuario.Contrasena, usuarioLogeoDto.Password);
+                var result = passwordHasher.VerifyHashedPassword(listaUsuario.Name, listaUsuario.Password, usuarioLogeoDto.Password);
 
                 if (result == PasswordVerificationResult.Success)
                 {
@@ -116,10 +116,10 @@ public class UsuarioController : ControllerBase
         {
             usuario.Email = email;
         }
-        if (!usuario.Contrasena.Equals(password) && password != null)
+        if (!usuario.Password.Equals(password) && password != null)
         {
             string hashedPassword = passwordHasher.HashPassword(name, password);
-            usuario.Contrasena = password;
+            usuario.Password = password;
         }
         if (!usuario.Direccion.Equals(address) && address != null)
         {
@@ -199,9 +199,9 @@ public class UsuarioController : ControllerBase
             Id = (int)usuario.Id,
             Nombre = usuario.Name,
             Email = usuario.Email,
-            Password = usuario.Contrasena,
+            Password = usuario.Password,
             Direccion = usuario.Direccion,
-            isAdmin = usuario.IsAdmin,
+            IsAdmin = usuario.IsAdmin,
         };
     }
 }
