@@ -3,7 +3,6 @@ using DunetopiaBackEnd.Models.Database.DTos;
 using DunetopiaBackEnd.Models.Database.Entities;
 using DunetopiaBackEnd.Models.DTos;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace DunetopiaBackEnd.Controllers;
 [Route("api/[controller]")]
@@ -28,7 +27,7 @@ public class ProductoController : ControllerBase
     [HttpPost("crearProducto")]
     public async Task<IActionResult> Post([FromForm] CreateProducto productoDto)
     {
-        if (productoDto.File == null) 
+        if (productoDto.File == null)
         {
             return BadRequest("No se ha proporcionado ningun archivo.");
         }
@@ -52,7 +51,7 @@ public class ProductoController : ControllerBase
         ProductoDto ProductoCreado = ToDto(newProducto);
 
         return Created($"/{newProducto.Id}", ProductoCreado);
-     }
+    }
     [HttpPut("modifyProducto/{productoId}")]
     public async Task<IActionResult> ModifyProducto(int productoId, [FromForm] RefrescarProducto modifiedProductDto)
     {
@@ -65,7 +64,8 @@ public class ProductoController : ControllerBase
 
             var productToUpdate = await _dbContextDunetopia.Productos.FindAsync(productoId);
 
-            if (productToUpdate == null) {
+            if (productToUpdate == null)
+            {
                 return NotFound($"Producto con ID {productoId} no encontrado");
             }
             productToUpdate.Name = modifiedProductDto.Nombre ?? productToUpdate.Name;
@@ -82,7 +82,8 @@ public class ProductoController : ControllerBase
             await _dbContextDunetopia.SaveChangesAsync();
 
             return Ok(new { Message = "Producto modificado completamente " });
-        } catch
+        }
+        catch
         {
             return BadRequest(new { Error = "Error al modificar el producto" });
         }
@@ -97,7 +98,7 @@ public class ProductoController : ControllerBase
             Descripcion = producto.Description,
             Price = producto.Price,
             Stock = producto.Stock,
-            image = producto.Image,
+            Image = producto.Image,
         };
     }
 }

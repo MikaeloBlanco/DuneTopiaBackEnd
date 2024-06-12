@@ -1,14 +1,14 @@
 ﻿namespace DunetopiaBackEnd.Models.Database.Entities;
 
-    public class ProductoPedido
-    {
-       public int Id { get; set; }
-       public int Cantidad { get; set; }
-       public int ProductoId { get; set; }
-       public string PedidosId {  get; set; }
+public class ProductoPedido
+{
+    public int Id { get; set; }
+    public int Cantidad { get; set; }
+    public int ProductoId { get; set; }
+    public string PedidosId { get; set; }
 
-      //Claves Foraneas
-       public ICollection<Pedido> Pedidos { get; set; }
-       public ICollection<Producto> Productos { get; set; }
-    }
+    //Claves Foraneas
+    public ICollection<Pedido> Pedidos { get; set; }
+    public ICollection<Producto> Productos { get; set; }
+}
 

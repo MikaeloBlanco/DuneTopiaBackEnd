@@ -1,16 +1,18 @@
 ﻿using DunetopiaBackEnd.Models.Database;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.Security.Claims;
-using System.IdentityModel.Tokens.Jwt;
-using Microsoft.Extensions.Options;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using DunetopiaBackEnd.Models.DTos;
 using DunetopiaBackEnd.Models.Database.DTos;
 using DunetopiaBackEnd.Models.Database.Entities;
+using DunetopiaBackEnd.Models.DTos;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace DunetopiaBackEnd.Controllers;
+[Route("api/[controller]")]
+[ApiController]
 
 public class UsuarioController : ControllerBase
 {
@@ -25,7 +27,7 @@ public class UsuarioController : ControllerBase
     }
 
     [HttpGet("listaUsuarios")]
-    public IEnumerable<UsuarioRegistrarDto> GetUser()
+    public IEnumerable<UsuarioRegistroDto> GetUser()
     {
         return _dbContextDuneTopia.Usuarios.Select(ToDto);
     }
@@ -39,14 +41,14 @@ public class UsuarioController : ControllerBase
         {
             Name = usuarioRegistroDto.Name,
             Email = usuarioRegistroDto.Email,
-            Contrasena = usuarioRegistroDto.Contrasena,
+            Contrasena = hashedPassword,
             Direccion = usuarioRegistroDto.Direccion
         };
 
         await _dbContextDuneTopia.Usuarios.AddAsync(nuevoUsuario);
         await _dbContextDuneTopia.SaveChangesAsync();
 
-        UsuarioRegistrarDto usuarioCreado = ToDto(nuevoUsuario);
+        UsuarioRegistroDto usuarioCreado = ToDto(nuevoUsuario);
 
         CarroDeCompra nuevoCarro = new CarroDeCompra()
         {
@@ -63,37 +65,40 @@ public class UsuarioController : ControllerBase
     [HttpPost("logueo")]
     public IActionResult Logeo([FromForm] UsuarioLogeoDto usuarioLogeoDto)
     {
-        foreach ( Usuario listaUsuario in _dbContextDuneTopia.Usuarios.ToList() )
+        foreach (Usuario listaUsuario in _dbContextDuneTopia.Usuarios.ToList())
         {
-            var result = passwordHasher.VerifyHashedPassword(listaUsuario.Name, listaUsuario.Contrasena, usuarioLogeoDto.Password);
-
-            if ( result == PasswordVerificationResult.Success )
+            if (listaUsuario.Email == usuarioLogeoDto.Email)
             {
-                string rol = " ";
+                var result = passwordHasher.VerifyHashedPassword(listaUsuario.Name, listaUsuario.Contrasena, usuarioLogeoDto.Password);
 
-                if (listaUsuario.IsAdmin == true)
+                if (result == PasswordVerificationResult.Success)
                 {
-                    rol = "Admin";
+                    string rol = " ";
+
+                    if (listaUsuario.IsAdmin == true)
+                    {
+                        rol = "Admin";
+                    }
+
+                    var tokenDescriptor = new SecurityTokenDescriptor
+                    {
+                        Claims = new Dictionary<string, object> {
+                            {"id", Guid.NewGuid().ToString() },
+                            { ClaimTypes.Role, rol }
+                        },
+                        Expires = DateTime.UtcNow.AddDays(7),
+                        SigningCredentials = new SigningCredentials(
+                            _tokenParameters.IssuerSigningKey,
+                            SecurityAlgorithms.HmacSha256Signature
+                            )
+                    };
+
+                    JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
+                    SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
+                    string stringToken = tokenHandler.WriteToken(token);
+
+                    return Ok(new { StringToken = stringToken, listaUsuario.Id });
                 }
-
-                var tokenDescriptor = new SecurityTokenDescriptor
-                {
-                    Claims = new Dictionary<string, object> {
-                        {"id", Guid.NewGuid().ToString() },
-                        { ClaimTypes.Role, rol }
-                    },
-                    Expires = DateTime.UtcNow.AddDays(7),
-                    SigningCredentials = new SigningCredentials(
-                        _tokenParameters.IssuerSigningKey,
-                        SecurityAlgorithms.HmacSha256Signature
-                        )
-                };
-
-                JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-                SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
-                string stringToken = tokenHandler.WriteToken(token);
-
-                return Ok(new { StringToken = stringToken, listaUsuario.Id });
             }
         }
         return Unauthorized("Usuario inexistente");
@@ -107,16 +112,16 @@ public class UsuarioController : ControllerBase
         {
             usuario.Name = name;
         }
-        if(!usuario.Email.Equals(email) && email != null)
+        if (!usuario.Email.Equals(email) && email != null)
         {
             usuario.Email = email;
         }
-        if(!usuario.Contrasena.Equals(password) && password != null)
+        if (!usuario.Contrasena.Equals(password) && password != null)
         {
-            string hashedPassword = passwordHasher.HashPassword(name,password);
+            string hashedPassword = passwordHasher.HashPassword(name, password);
             usuario.Contrasena = password;
         }
-        if(!usuario.Direccion.Equals(address) && address != null)
+        if (!usuario.Direccion.Equals(address) && address != null)
         {
             usuario.Direccion = address;
         }
@@ -133,7 +138,7 @@ public class UsuarioController : ControllerBase
         {
             var usuarioAEliminar = _dbContextDuneTopia.Usuarios.FirstOrDefault(usuario => usuario.Id == idUsuario);
 
-            if(usuarioAEliminar == null)
+            if (usuarioAEliminar == null)
             {
                 return NotFound($"Usuario con id {idUsuario} no encontrado o no existe");
             }
@@ -142,9 +147,12 @@ public class UsuarioController : ControllerBase
             _dbContextDuneTopia.SaveChanges();
 
             return Ok(new { Message = "Usuario eliminado con éxito" });
-        } catch (Exception ex)
+        }
+        catch (Exception ex)
         {
-            return BadRequest(new { Error = $"Error al eliminar usuario: {ex.Message}"
+            return BadRequest(new
+            {
+                Error = $"Error al eliminar usuario: {ex.Message}"
             });
         }
     }
@@ -164,7 +172,8 @@ public class UsuarioController : ControllerBase
             _dbContextDuneTopia.SaveChanges();
 
             return Ok(new { Message = "Rol actualizado con exito" });
-        } catch(Exception ex)
+        }
+        catch (Exception ex)
         {
             return BadRequest(new { Error = $"Error al acutalizar el rol de usuario: {ex.Message}" });
         }
@@ -183,9 +192,9 @@ public class UsuarioController : ControllerBase
         return Ok(usuario);
     }
 
-    private UsuarioRegistrarDto ToDto (Usuario usuario)
+    private UsuarioRegistroDto ToDto(Usuario usuario)
     {
-        return new UsuarioRegistrarDto()
+        return new UsuarioRegistroDto()
         {
             Id = (int)usuario.Id,
             Nombre = usuario.Name,

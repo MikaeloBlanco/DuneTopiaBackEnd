@@ -1,6 +1,5 @@
 ﻿using DunetopiaBackEnd.Models.Database;
 using DunetopiaBackEnd.Models.Database.Entities;
-using System.Numerics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -82,7 +81,7 @@ namespace DunetopiaBackEnd.Controllers
                     Console.WriteLine("ID de Pedido: " + nuevoProductoPedido.PedidosId);
                     await _DuneTopiaDataBase.ProductoPedidos.AddAsync(nuevoProductoPedido);
                 }
-                for (int i = 0; i < productoCarros.Length;i++)
+                for (int i = 0; i < productoCarros.Length; i++)
                 {
                     _DuneTopiaDataBase.ProductoCarros.Remove(_DuneTopiaDataBase.ProductoCarros.FirstOrDefault(p => p.CarroDeCompraId == compra.IdUsuario));
                     await _DuneTopiaDataBase.SaveChangesAsync();

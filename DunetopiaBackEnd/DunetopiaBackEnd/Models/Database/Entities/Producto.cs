@@ -15,8 +15,8 @@ namespace DunetopiaBackEnd.Models.Database.Entities;
         public int ProductoCarroId { get; set; }
 
 
-    //claves foraenas
-    public ICollection<ProductoCarro> ProductoCarro { get; set; }
-    //public ICollection<>  { get; set; }
+    // Foreing Keys
+    public ICollection<ProductoCarro> ProductosCarros { get; set; }
+    public ICollection<ProductoPedido> ProductosPedidos  { get; set; }
     }
 

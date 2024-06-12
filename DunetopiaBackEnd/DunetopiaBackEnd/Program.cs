@@ -1,5 +1,5 @@
-using Microsoft.IdentityModel.Tokens;
 using DunetopiaBackEnd.Models.Database;
+using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 namespace DunetopiaBackEnd
@@ -49,7 +49,12 @@ namespace DunetopiaBackEnd
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-                
+
+                app.UseCors(config => config
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .SetIsOriginAllowed(origin => true)
+                    .AllowCredentials());
             }
 
             app.UseHttpsRedirection();

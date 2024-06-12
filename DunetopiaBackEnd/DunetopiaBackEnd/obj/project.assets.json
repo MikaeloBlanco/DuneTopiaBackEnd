@@ -3305,19 +3305,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeb\\.nuget\\packages\\": {}
+    "C:\\Users\\Miguel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd.csproj",
+      "projectUniqueName": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd.csproj",
       "projectName": "DunetopiaBackEnd",
-      "projectPath": "D:\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd.csproj",
-      "packagesPath": "C:\\Users\\Jeb\\.nuget\\packages\\",
-      "outputPath": "D:\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\obj\\",
+      "projectPath": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd.csproj",
+      "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
+      "outputPath": "D:\\DuneTopiaBackEnd\\DunetopiaBackEnd\\DunetopiaBackEnd\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Jeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3337,6 +3342,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3389,7 +3399,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

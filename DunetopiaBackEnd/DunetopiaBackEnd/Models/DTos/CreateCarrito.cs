@@ -1,6 +1,5 @@
-﻿namespace DunetopiaBackEnd.Models.DTos
+﻿namespace DunetopiaBackEnd.Models.DTos;
+
+public class CreateCarrito
 {
-    public class CreateCarrito
-    {
-    }
 }

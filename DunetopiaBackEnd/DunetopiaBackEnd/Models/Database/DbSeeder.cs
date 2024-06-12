@@ -15,7 +15,7 @@ public class DbSeeder
     {
         bool created = await _dbContextDuneTopia.Database.EnsureCreatedAsync();
 
-        if(created)
+        if (created)
         {
             await SeedProductosAsync();
         }
@@ -71,6 +71,6 @@ public class DbSeeder
                 }
 
             ];
-        await _dbContextDuneTopia.Productos.AddRangeAsync( productos );
+        await _dbContextDuneTopia.Productos.AddRangeAsync(productos);
     }
 }

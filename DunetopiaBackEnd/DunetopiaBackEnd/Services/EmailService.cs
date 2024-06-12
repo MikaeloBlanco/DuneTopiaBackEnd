@@ -1,8 +1,4 @@
-﻿using System.Net;
-using System.Net.Mail;
-using System.Runtime.CompilerServices;
-
-namespace Recursos;
+﻿namespace Recursos;
 
 internal class EmailService
 {

@@ -1,9 +1,8 @@
-﻿namespace DunetopiaBackEnd.Models.DTos
-{
-    public class ModifyRolUsuario
-    {
-        public long idUsuario {  get; set; }
+﻿namespace DunetopiaBackEnd.Models.DTos;
 
-        public bool IsAdmin { get; set; }
-    }
+public class ModifyRolUsuario
+{
+    public long idUsuario { get; set; }
+
+    public bool IsAdmin { get; set; }
 }
