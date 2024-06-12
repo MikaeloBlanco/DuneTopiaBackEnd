@@ -23,7 +23,7 @@ public class CarritoController : ControllerBase
         return _dbContextDunetopia.CarroDeCompras;
     }
     [HttpPost("añadiracarrito")]
-    public async Task<IActionResult> addProducto([FromForm] int productoId, [FromForm] int usuarioId, [FromForm] int cantidad)
+    public async Task<IActionResult> AddProducto([FromForm] int productoId, [FromForm] int usuarioId, [FromForm] int cantidad)
     {
         var producto = await _dbContextDunetopia.ProductoCarros
             .FirstOrDefaultAsync(id => id.CarroDeCompraId == usuarioId && id.ProductoId == productoId);
