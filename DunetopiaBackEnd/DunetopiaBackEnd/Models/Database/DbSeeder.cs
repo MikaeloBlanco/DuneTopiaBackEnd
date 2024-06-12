@@ -53,21 +53,21 @@ public class DbSeeder
                     Description = "Un juego de conseguir petroleo en el salvaje oeste. Lucha contra tus competidores para conseguir ese Oro negro que aun sigue sin ser escavado",
                     Price = 25.30m,
                     Stock = 27,
-                    Image = "Imagenes/turmoil"
+                    Image = "Imagenes/turmoil.jpg"
                 },
                 new Producto(){
                     Name = "Kenshi",
                     Description = "El simulador rpg más duro y realista en una tierra extraña. Diferentes razas en este mundo arido se enfrentan por sobrevivir. Has de poder aprender a pelear, cultivar, ganar dinero y luchar sin tus brazos o armas. Lucha, muere y aprende",
                     Price = 20.00m,
                     Stock = 5,
-                    Image = "Imagenes/kenshi"
+                    Image = "Imagenes/kenshi.jpg"
                 },
                 new Producto(){
                     Name = "Dune Spice wars",
                     Description = "Un juego del estilo de Civilization que te lleva al mundo de Ciencia-Ficción de Dune en busca de las especias.",
                     Price = 23.45m,
                     Stock = 34,
-                    Image = "Imagenes/dune-spice-wars"
+                    Image = "Imagenes/dune-spice-wars.jpg"
                 }
 
             ];

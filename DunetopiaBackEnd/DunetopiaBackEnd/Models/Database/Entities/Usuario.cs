@@ -10,6 +10,7 @@ public class Usuario
     public string Direccion { get; set; }
     public string Password { get; set; }
     public bool IsAdmin { get; set; }
+    public int PedidosId { get; set; }
 
     public ICollection<Pedido> Pedidos { get; set; }
 }

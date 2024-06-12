@@ -1,4 +1,6 @@
-﻿namespace DunetopiaBackEnd.Models.Database.DTos;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace DunetopiaBackEnd.Models.Database.DTos;
 
 public class ProductoDto
 {
