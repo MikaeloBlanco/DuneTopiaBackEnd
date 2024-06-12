@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DunetopiaBackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ad09f5c1d7c48ab08976bb7188ca94ae700ab6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49f1be0faab8ac31062059940d2e81203b4afbcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DunetopiaBackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DunetopiaBackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

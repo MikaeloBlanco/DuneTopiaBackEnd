@@ -49,12 +49,6 @@ namespace DunetopiaBackEnd
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-
-               app.UseCors(config => config
-                .AllowAnyOrigin()
-                .AllowAnyHeader()
-                .SetIsOriginAllowed(origin => true)
-                .AllowCredentials());
                 
             }
 
