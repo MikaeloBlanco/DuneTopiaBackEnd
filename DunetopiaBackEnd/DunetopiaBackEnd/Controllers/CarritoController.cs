@@ -22,12 +22,12 @@ public class CarritoController : ControllerBase
     {
         return _dbContextDunetopia.CarroDeCompras;
     }
-    [HttpPost("añadiracarrito")]
-    public async Task<IActionResult> AddProducto([FromForm] int productoId, [FromForm] int usuarioId, [FromForm] int cantidad)
+    [HttpPost("anadiracarrito")]
+    public async Task<IActionResult> AddProducto([FromForm] int idProducto, [FromForm] int idUsuario, [FromForm] int cantidad)
     {
         var producto = await _dbContextDunetopia.ProductoCarros
-            .FirstOrDefaultAsync(id => id.CarroDeCompraId == usuarioId && id.ProductoId == productoId);
-        if (producto == null)
+            .FirstOrDefaultAsync(id => id.CarroDeCompraId == idUsuario && id.ProductoId == idProducto);
+        if (producto != null)
         {
             producto.Cantidad += cantidad;
             _dbContextDunetopia.ProductoCarros.Update(producto);
@@ -38,15 +38,15 @@ public class CarritoController : ControllerBase
         {
             ProductoCarro addProducto = new ProductoCarro()
             {
-                ProductoId = productoId,
-                CarroDeCompraId = usuarioId,
+                ProductoId = idProducto,
+                CarroDeCompraId = idUsuario,
                 Cantidad = cantidad
             };
 
             await _dbContextDunetopia.ProductoCarros.AddAsync(addProducto);
             await _dbContextDunetopia.SaveChangesAsync();
 
-            return Created($"/{productoId}", addProducto);
+            return Created($"/{idProducto}", addProducto);
         }
     }
 }

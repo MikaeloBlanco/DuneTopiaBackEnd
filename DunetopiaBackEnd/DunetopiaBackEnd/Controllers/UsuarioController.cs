@@ -69,7 +69,7 @@ public class UsuarioController : ControllerBase
         {
             if (listaUsuario.Email == usuarioLogeoDto.Email)
             {
-                var result = passwordHasher.VerifyHashedPassword(listaUsuario.Name, listaUsuario.Password, usuarioLogeoDto.Password);
+                PasswordVerificationResult result = passwordHasher.VerifyHashedPassword(listaUsuario.Name, listaUsuario.Password, usuarioLogeoDto.Password);
 
                 if (result == PasswordVerificationResult.Success)
                 {

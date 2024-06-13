@@ -11,27 +11,25 @@ namespace DunetopiaBackEnd.Controllers
     {
         private readonly MyDBContext _DuneTopiaDataBase;
 
-        private const string OUR_WALLET = "0x2FB33CA25av35eG90dA38254503c4676BF3eBF10";
 
         public ConfirmacionController(MyDBContext duneTopiaDataBase)
         {
             _DuneTopiaDataBase = duneTopiaDataBase;
         }
         [HttpPost("ComprarProducto")]
-        public async Task<Compracion> CompraAsync([FromForm] string clientWallet, [FromForm] decimal totalPrecio, [FromForm] int idUsuario)
+        public async Task<Compracion> CompraAsync([FromForm] decimal totalPrecio, [FromForm] int idUsuario)
         {
             ProductoCarro productoCarro = _DuneTopiaDataBase.ProductoCarros
                 .FirstOrDefault(id => id.CarroDeCompraId == idUsuario);
 
             Compracion compracion = new Compracion()
             {
-                From = clientWallet,
-                To = OUR_WALLET
+                Valor = totalPrecio.ToString()
             };
 
             Compra compra = new Compra()
             {
-                ClientWallet = compracion.From,
+
                 IdUsuario = idUsuario,
                 Precio = totalPrecio,
                 fecha = DateTime.Now.ToString("dd MM yyyy")
@@ -45,14 +43,11 @@ namespace DunetopiaBackEnd.Controllers
         }
 
         [HttpPost("check/{compraID}")]
-        public async Task<bool> CheckCompraAsync(int compraId, [FromBody] string txHash)
+        public async Task<bool> CheckCompraAsync(int compraId)
         {
             bool success = true;
             Compra compra = await _DuneTopiaDataBase.Compras.FirstOrDefaultAsync(id => id.Id == compraId);
             Console.WriteLine(compra);
-            compra.Hash = txHash;
-            Console.WriteLine(txHash);
-            Console.WriteLine(compra.Hash);
 
             if (success)
             {
